@@ -370,3 +370,20 @@ nav ul li a:hover {
         flex: 0 0 calc(25% - 2em)
     }
 }
+
+/* end of services */
+
+/* portfolio */
+
+#portfolio {
+    padding: 40px;
+    background: #c9c9c9;
+}
+
+.work {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    max-height: 300px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
