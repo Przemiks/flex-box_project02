@@ -606,8 +606,50 @@ nav ul li a:hover {
     }
 }
 
-
-
-
 /* end of team */
 
+/* customers */
+
+#customers {
+    padding: 40px;
+    background: #191919;
+}
+
+.customer {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.customer img {
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.customer h3 {
+    margin: 10px 0;
+    text-transform: capitalize;
+    color: #0066ff;
+}
+
+.customer h5 {
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.customer p {
+    line-height: 1.5;
+    width: 75%;
+    margin: 10px auto;
+}
+
+@media screen and (min-width:576px) {
+    .customers-center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .customer {
+        flex: 0 0 calc(33.33% - 2em);
+    }
+}
