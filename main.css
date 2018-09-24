@@ -653,3 +653,72 @@ nav ul li a:hover {
         flex: 0 0 calc(33.33% - 2em);
     }
 }
+
+/* contact */
+
+#contact {
+    padding: 40px;
+    background: #0066ff;
+    color: #fff;
+}
+
+#contact .title-underline {
+    border-color: #fff;
+}
+
+.item-info {
+    display: flex;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.item-info .fa {
+    margin-right: 20px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 25px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 4px solid #fff;
+}
+
+form input::placeholder {
+    color: #fff;
+}
+
+#customer-info a {
+    display: block;
+    padding: 20px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    background: #191919;
+    transition: background 2s ease;
+}
+
+#customer-info a:hover {
+    background: darkgrey;
+}
+
+@media screen and (min-width:776px) {
+    .contact-center {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .company-info {
+        flex: 0 0 calc(50% - 10px);
+    }
+    .customer-info {
+        flex: 0 0 calc(50% - 10px;)
+    }
+}
+
